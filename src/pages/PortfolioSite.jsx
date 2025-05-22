@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
+import React, { useLayoutEffect } from "react";
 
 /**
  * Abstract animated background shapes
@@ -225,6 +226,12 @@ function Contact() {
  * Main export
  */
 export default function PortfolioSite() {
+  useLayoutEffect(() => {
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+    window.scrollTo({ top: 0, left: 0 });
+  }, []);
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-indigo-950 via-black to-slate-900 text-white selection:bg-emerald-700/80 selection:text-white">
       <AbstractBackground />

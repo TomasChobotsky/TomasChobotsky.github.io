@@ -48,3 +48,6 @@
     --radius: 0.5rem;
   }
 }
+html {
+  overflow-anchor: none;
+}
