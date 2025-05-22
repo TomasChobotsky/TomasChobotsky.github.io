@@ -3,7 +3,6 @@ import { motion } from "framer-motion";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import React, { useLayoutEffect } from "react";
 
 /**
  * Abstract animated background shapes
