@@ -228,7 +228,7 @@ export default function PortfolioSite() {
   return (
     <div className="relative min-h-screen overflow-x-hidden bg-gradient-to-br from-indigo-950 via-black to-slate-900 text-white selection:bg-emerald-700/80 selection:text-white">
       <AbstractBackground />
-      <main className="relative z-10 flex flex-col items-center px-4 py-20 gap-32 sm:gap-40">
+      <main className="relative z-10 flex flex-col items-center px-4 pt-8 sm:pt-12 pb-20 gap-24 sm:gap-40">
         <Hero />
         <About />
         <Experience />
