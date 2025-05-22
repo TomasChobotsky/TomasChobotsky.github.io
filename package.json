@@ -8,7 +8,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TomasChobotsky/TomasChobotsky.github.io.git"
+    "url": "git+https://github.com/TomasChobotsky/TomasChobotsky.github.io.git",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [],
   "author": "",
