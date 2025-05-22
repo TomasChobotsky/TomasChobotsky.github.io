@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",            // project root
+    "paths": {
+      "@/*": ["src/*"]         // <-- matches the "@/…" imports in your code
+    },
+    "types": ["vite/client"]   // lets editors know about Vite globals
+  }
+}
